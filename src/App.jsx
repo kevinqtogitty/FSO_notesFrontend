@@ -3,8 +3,7 @@ import axios from 'axios'
 import Note from './Notes'
 import notesService from './src/services/notesService.jsx' 
 import Notification from './Notification.jsx'
-import Footer from './footer.jsx'
-
+import Footer from './Footer'
 const App = () => {
   const [notes, setNotes] = useState([])
   const [newNote, setNewNote] = useState('')
