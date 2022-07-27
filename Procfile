@@ -1,1 +1,1 @@
-web: node ./notes_backend/index.js
+web: node ./app/index.js
